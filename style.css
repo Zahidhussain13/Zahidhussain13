@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background-image: url(./img/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.container-0 {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container-1 {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    margin: auto;
+}
+
+.hero {
+
+    width: 100%;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: rgb(214, 208, 208);
+    padding-top: 30px;
+
+}
+
+.container-3 {
+    padding: 50px;
+    display: flex;
+    background: rgb(214, 208, 208);
+    justify-content: space-evenly;
+}
+
+.container-3 h1 {
+    font-weight: bolder;
+    color: rgb(77, 182, 77);
+}
+
+.container-4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 50px
+}
+
+.container-5 {
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.items-1 i {
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: rgb(106, 221, 106);
+    border-radius: 20px;
+    width: 60px;
+    padding: 10px;
+    margin: auto;
+}
+
+.container-6{
+    background: url(./img/call-to-action-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 200px; */
+}
+
+.container-6{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.items-7{
+    padding-top: 50px;
+}
+
+.container-7{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.container-8{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.items-8{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.items-8 h1:hover{
+    
+    background: rgb(140, 243, 238);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.container-9{
+    
+    display: flex;  
+}
+.items-9{
+      
+      margin: 20px;
+}
+.container-10{
+    display: flex;
+}
+.container-11{
+    display: flex;
+}
+.container-12{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+.container-13{
+    display: flex;
+    margin: 50px;
+}
+.items-10{
+    padding-top: 30px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.items-10 h1{
+    font-size: 30px;
+}
+.items-10 i{
+    opacity: 0.60;
+}
+.items-10 p{
+    color: gray;
+}
+.container-14{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+}
+
+
+.container-16 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-16,
+
+i,p {
+   
+    margin: 5px;
+}
+.container-16 i {
+    font-size: xx-large;
+   color: rgb(101, 168, 131);   
+}
+
+
+.links-1 i{
+    width: 10%;
+    font-size: xx-large;
+     color: rgb(56, 53, 53);
+     
+     padding: 5px;
+     
+     
+
+    
+}
+input {
+padding-left: 5px;
+width: 200%;
+}
+
+ .form-control{
+    width: 200%;
+}
+
+.container-17{
+    padding-top: 20px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(59, 56, 56);
+    color: whitesmoke;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .container-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container-3 {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container-6{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+       .container-9{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+       }
+       .container-10{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+       }
+       .container-11{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+       }
+       .container-13{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container-16{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1400px) {
+    .container-1 {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .container-6{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .container-16{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+}
